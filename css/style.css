@@ -1,0 +1,104 @@
+row{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.shadow {
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+.bg {
+    background-color: purple;
+}
+a {
+    color: yellow;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.wallpaper{
+    background: black;
+}
+.b{
+    height: 800px;
+}
+.psize {
+    font-size: 15px;
+    color: yellow;
+}
+h1{
+    color: yellow;
+}
+h2{
+    color: yellow;
+}
+
+.grosimg
+{
+
+}
+label{
+    color: yellow;
+}
+
+/* Cellulaires */
+@media only screen and (max-device-width: 480px){
+    .ima{
+        height: 50%;
+        width: 50%;
+    }
+    .psize{
+        font-size: 8px;
+    }
+    h1{
+        font-size: 15px;
+    }
+    .h2{
+        font-size: 20px;
+    }
+    .ico{
+        font-size: 25px;
+    }
+    .margin{
+        margin-top: 70px;
+    }
+}
+
+/* TABLETTES */
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    .ima{
+        height: 70%;
+        width: 70%;
+    }
+    .psize{
+        font-size:10px ;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .h2{
+        font-size: 25px;
+    }
+    .ico{
+        font-size: 30px;
+    }
+}
